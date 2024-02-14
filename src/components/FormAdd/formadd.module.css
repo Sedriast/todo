@@ -1,0 +1,42 @@
+.container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+
+    background: rgb(33, 33, 33);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container label {
+    color: rgb(243, 243, 243);
+    font-size: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.container input {
+    padding: 0.25em 1em;
+    margin: 0.5em 0;
+
+    border-radius: 10px;
+    background: rgb(243, 243, 243);
+}
+
+.container button {
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+
+    background: rgb(103, 146, 103);
+
+    border-radius: 1em;
+}

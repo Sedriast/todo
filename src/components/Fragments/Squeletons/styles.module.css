@@ -1,0 +1,65 @@
+.ItemSquelleton {
+    width: 95% !important;
+    height: 50px !important;
+
+    border-radius: 45px 10px 10px 45px !important;
+    padding: 0.5em 0.5em 0.5em 0em !important;
+
+    margin: 0em 1em;
+
+    background: #232d4b;
+
+    display: flex;
+    align-items: center;
+
+    animation: lo infinite 0.5s ease;
+}
+
+.ItemSquelleton div:first-child {
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50px;
+    border: 10px solid #000616;
+    background: #232d4b;
+
+    animation: lo infinite 0.5s ease;
+}
+
+.ItemSquelleton div {
+    width: calc(100% - 60px);
+    height: 100%;
+    padding-left: 1em;
+
+    display: flex;
+}
+
+.ItemSquelleton div:last-child {
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+
+    right: -1.3em;
+
+    border-radius: 50px;
+    background: #000616;
+
+    -webkit-transfort: scale(0.8);
+}
+
+@keyframes lo {
+    0% {
+        background: #0f1320;
+    }
+
+    50% {
+        background: #232d4b;
+    }
+
+    100% {
+        background: #0f1320;
+    }
+}
